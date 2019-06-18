@@ -6,7 +6,7 @@ class Song
 
 
   extend Memorable::ClassMethods
-  
+  extend 
   
   @@songs = []
 
