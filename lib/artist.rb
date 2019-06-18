@@ -5,7 +5,8 @@ class Artist
   attr_reader :songs
   
   
-  extend memorable::ClassMethods
+  extend Memorable::ClassMethods
+  extend 
 
 
 
