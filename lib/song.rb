@@ -8,7 +8,7 @@ class Song
   extend Memorable::ClassMethods
   extend 
   
-  @@songs = []
+  @@songs = [ ]
 
   def initialize
     @@songs << self
