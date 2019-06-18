@@ -7,9 +7,6 @@ class Artist
   
   extend Memorable::ClassMethods
   
-
-
-
   @@artists = []
 
   def initialize
@@ -19,7 +16,7 @@ class Artist
 
   # def self.find_by_name(name)
   #   @@artists.detect{|a| a.name == name}
-  end
+  # end
 
   def self.all
     @@artists
